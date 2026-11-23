@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Earthspired — From Source to Everyday</title>
+  <meta name="description" content="Earthspired — From Source to Everyday. INDULGE, ESSENCE and SAGE: food, lifestyle and wellness drawn from the earth." />
+  <link rel="icon" href="assets/img/logos/earthspired.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body data-page="home">
+  <div id="site-header"></div>
+
+  <main id="main">
+    <!-- HERO: introduction to Earthspired -->
+    <section class="hero">
+      <div class="container">
+        <h1>Earthspired</h1>
+        <img class="hero-logo" src="assets/img/logos/earthspired-full.png" alt="Earthspired — From Source to Everyday" />
+        <p class="hero-intro">Honest ingredients and considered materials, drawn from the earth and carried gently into the <span data-mark="underline" data-mark-delay="1.1">everyday</span>.</p>
+        <div class="btn-row">
+          <a class="btn" href="#brands">Explore the brands</a>
+          <a class="btn btn--ghost" href="our-story.html">Our story</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span><span>Millet</span><span>Amaranth</span><span>Ashwagandha</span><span>Amla</span><span>Handloom</span><span>Turmeric</span><span>Block print</span><span>Spirulina</span><span>Shilajit</span><span>Aloe vera</span><span>Ginger</span></span>
+        <span><span>Millet</span><span>Amaranth</span><span>Ashwagandha</span><span>Amla</span><span>Handloom</span><span>Turmeric</span><span>Block print</span><span>Spirulina</span><span>Shilajit</span><span>Aloe vera</span><span>Ginger</span></span>
+      </div>
+    </div>
+
+    <!-- THE BRANDS: three expressions of Earthspired -->
+    <section class="section section--paper" id="parent">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Savour · Live · Nourish</span>
+          <h2>Something to savour, something to live with, something to return to.</h2>
+          <p class="lead">Each begins in the same place — with something real, chosen for where it comes from — and finds its own way into your day.</p>
+        </div>
+        <div class="structure">
+          <div class="structure-root"><img src="assets/img/logos/earthspired.png" alt="Earthspired" /></div>
+          <div class="structure-stem"></div>
+          <div class="structure-branches" data-render="brand-trio"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUB-BRANDS (built from catalogue.js) -->
+    <section class="section" id="brands">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Our brands</span>
+          <h2>Shop by category</h2>
+        </div>
+        <div class="brand-panels" data-render="brand-panels"></div>
+      </div>
+    </section>
+
+    <!-- ORIGINS: rural India -->
+    <section class="origins" id="origins">
+      <div class="origins-bg kb"><img src="assets/img/origins/golden-harvest.jpg" alt="A woman harvesting golden rice by hand in a field in Karnataka" loading="lazy" /></div>
+      <div class="container">
+        <div class="origins-copy">
+          <span class="eyebrow">Where it begins</span>
+          <h2>It starts in the <span data-mark="circle" data-mark-delay=".5" style="--mark-color:#e9c79f">fields</span>.</h2>
+          <p>Long before anything reaches your table, your home or your daily ritual, it begins with soil, seasons and the hands that tend them across rural India.</p>
+          <div class="btn-row"><a class="btn btn--ghost" href="our-story.html">Our story</a></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PRODUCTS (products with featured: true in catalogue.js) -->
+    <section class="section section--paper" id="featured">
+      <div class="container">
+        <div class="section-head section-head--row">
+          <div><span class="eyebrow">Featured</span><h2>Featured products</h2></div>
+          <a class="link-arrow" href="search.html">All products →</a>
+        </div>
+        <div class="grid grid--products" data-render="featured"></div>
+      </div>
+    </section>
+
+    <!-- STATEMENT -->
+    <section class="statement">
+      <div class="container">
+        <span class="eyebrow">Close to the source</span>
+        <p class="word-reveal">Real grains, time-honoured botanicals and considered materials — grown, gathered and carefully made, then carried into your every day.</p>
+        <div class="field-strip">
+          <figure><img src="assets/img/origins/field-rows.jpg" alt="Women working between rows of young crops in Gujarat" loading="lazy" /></figure>
+          <figure><img src="assets/img/origins/women-farmers.jpg" alt="Two women farmers standing in a green field" loading="lazy" /></figure>
+          <figure><img src="assets/img/origins/ploughing-oxen.jpg" alt="A farmer ploughing a paddy field with a pair of oxen in Madhya Pradesh" loading="lazy" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- BRAND STORY PREVIEW -->
+    <section class="section" id="story">
+      <div class="container split">
+        <div>
+          <span class="eyebrow">Our story</span>
+          <h2>From Source to Everyday</h2>
+          <p>Earthspired began with a simple belief: that the things we eat, live with and care for ourselves with should stay close to where they came from.</p>
+          <p>So we start at the source — a grain baked rather than fried, a botanical in its simplest form, a plate made to be used every day — and carry it, carefully, into the everyday.</p>
+          <a class="link-arrow" href="our-story.html">Read our story →</a>
+        </div>
+        <div class="mosaic">
+          <img src="assets/img/origins/carrying-harvest.jpg" alt="Farmers carrying bundles of harvested rice across a field in Anegundi" loading="lazy" />
+          <img src="assets/img/origins/sowing.jpg" alt="A farmer sowing seed in the Western Ghats, Maharashtra" loading="lazy" />
+          <img src="assets/img/origins/village-road.jpg" alt="Women and cattle on a village road in Raichur" loading="lazy" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/catalogue.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
